@@ -1,4 +1,3 @@
-// Footer.js
 import React from 'react';
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
@@ -7,7 +6,6 @@ const Footer = () => {
     <footer className="bg-green-800 text-white py-12">
       <div className="container mx-auto px-6">
         <div className="flex flex-wrap justify-between">
-          {/* Company Info */}
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h2 className="text-xl font-semibold mb-4">Company</h2>
             <ul className="space-y-2">
@@ -21,13 +19,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Address */}
           <div className="w-full md:w-1/4 mb-6 md:mb-0 pr-12">
             <h2 className="text-xl font-semibold mb-4">Address</h2>
             <p className="leading-relaxed">11th floor, Brigade Signature Towers, Kattamnallur, Bangalore 560049</p>
           </div>
 
-          {/* Follow Us */}
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h2 className="text-xl font-semibold mb-4">Follow Us</h2>
             <ul className="flex space-x-6">

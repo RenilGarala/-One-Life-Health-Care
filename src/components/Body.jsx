@@ -1,8 +1,6 @@
 import React from "react";
 import "animate.css";
 import Benefit from "./Benefit";
-import Footer from "./Footer";
-import WOW from "wowjs";
 
 const Body = () => {
   return (
@@ -21,9 +19,8 @@ const Body = () => {
               Our mission is simple to help you feel better, get better and stay
             </div>
           </div>
-
           <div>
-            <button className="px-8 py-3 flex gap-3 w-auto font-bold text-sm  bg-green-700 text-white rounded-full hover:bg-green-700">
+            <button className="px-8 py-3 flex gap-3 w-auto font-bold text-sm bg-green-700 text-white rounded-full hover:bg-green-700">
               <span>SEE MORE</span>
               <img
                 width="20"
@@ -180,10 +177,6 @@ const Body = () => {
           weave a tapestry of support and compassion. At One Life Healthcare,
           your well-being is not just our priority; it's our collective mission.
         </div>
-      </div>
-
-      <div>
-        <Footer />
       </div>
     </div>
   );
