@@ -1,9 +1,12 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const Footer = () => {
   return (
-    <footer className="bg-green-800 text-white py-12">
+    <div data-aos="fade-up" className="bg-green-800 text-white py-12">
       <div className="container mx-auto px-6">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
@@ -55,7 +58,7 @@ const Footer = () => {
           <p>© Fly Fare Technologies LLP 2024. All rights reserved.</p>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
