@@ -11,9 +11,9 @@ const Body = () => {
       {/* section 1 */}
       <div
         data-aos="fade-in"
-        className=" flex px-32 lg:px-20 md:px-16 sm:px-7 bg-white text-black items-center py-44 justify-between h-[calc(100vh+4rem)]  gap-4 xl:flex-col-reverse lg:items-center xl:justify-center xl:gap-20"
+        className=" flex px-32 lg:px-20 md:px-16 sm:px-7 bg-white text-black items-center py-44 justify-between h-[calc(100vh+4rem)] gap-4 xl:flex-col-reverse lg:items-center xl:justify-center xl:gap-20 sm:gap-10 md:gap-10"
       >
-        <div className="grid gap-8 lg:text-center">
+        <div className="grid gap-8 md:gap-6 sm:gap-4 lg:text-center">
           <div className="text-6xl tracking-wider leading-tight font-bold sm:text-4xl sm:leading-tight sm:tracking-wider">
             Your <span className="text-green-700">Mental Health</span> Matters
           </div>
@@ -27,7 +27,7 @@ const Body = () => {
             </div>
           </div>
           <div className="xl:justify-center xl:flex ">
-            <button className="px-8 py-4 sm:py-3 flex gap-3 w-auto md:text-md font-bold text-sm bg-green-700 text-white rounded-full hover:bg-green-700">
+            <button className="px-8 py-4 sm:py-2 flex gap-3 w-auto md:text-md font-bold text-sm bg-green-700 text-white rounded-full hover:bg-green-700">
               <span>SEE MORE</span>
               <img
                 width="20"
