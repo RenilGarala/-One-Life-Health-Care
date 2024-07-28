@@ -11,7 +11,7 @@ const Body = () => {
       {/* section 1 */}
       <div
         data-aos="fade-in"
-        className=" flex px-32 lg:px-20 md:px-16 sm:px-7 bg-white text-black items-center py-44 justify-between h-[calc(100vh+4rem)] gap-4 xl:flex-col-reverse lg:items-center xl:justify-center xl:gap-20 sm:gap-10 md:gap-10"
+        className=" flex px-32 lg:px-20 md:px-16 sm:px-7 bg-white text-black items-center py-44 justify-between h-[calc(100vh+4rem)] sm:h-[calc(100vh+3rem)] gap-4 xl:flex-col-reverse lg:items-center xl:justify-center xl:gap-20 sm:gap-10 md:gap-10"
       >
         <div className="grid gap-8 md:gap-6 sm:gap-4 lg:text-center">
           <div className="text-6xl tracking-wider leading-tight font-bold sm:text-4xl sm:leading-tight sm:tracking-wider">
